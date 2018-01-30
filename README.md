@@ -6,7 +6,6 @@
 * **Do not use any global variables.**  Global variables and their drawbacks are discussed on pages 357-9 of the textbook.
 * If the assignment description doesn't specify a return value for a function, then it should have a return type of void.
 
-
 **Project 4.a**
 
 The following formula can be used to determine the distance an object falls due to gravity in a specific time period:
@@ -17,21 +16,18 @@ where d is the distance in meters, g is 9.8, and t is the time in seconds that t
 
 The file must be named: **fallDistance.cpp**
 
-
 **Project 4.b**
 
-Write a void function named smallSort that takes three int parameters by reference and sorts their values into ascending order, so that the first parameter now has the lowest value, the second parameter the middle value, and the third parameter has the highest value.  For example if the main method has:
+Write a void function named smallSort that takes three int parameters **by reference** and sorts their values into ascending order, so that the first parameter now has the lowest value, the second parameter the middle value, and the third parameter has the highest value.  For example if the main method has:
 
     int a = 14;
     int b = -90;
     int c = 2;
     smallSort(a, b, c);
     cout << a << ", " << b << ", " << c << endl;
-Then the output should be:
-    `-90, 2, 14`
+Then the output should be: `-90, 2, 14`
 
 The file must be named **smallSort.cpp**.
-
 
 **Project 4.c**
 
