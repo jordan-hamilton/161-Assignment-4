@@ -1,7 +1,5 @@
 ## Assignment 4 ##
 
-***
-
 **For the following projects (and all future projects in this course):**
 
 * **Do not include a main method in the files you submit** - just the definitions of the assigned functions.  I will compile your code with my own main method for testing, and there can only be one main method in a program.  You will of course need to have a main method for testing purposes - just make sure you comment it out (or delete it) before submitting your file.
