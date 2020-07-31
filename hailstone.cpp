@@ -18,7 +18,7 @@ int main() {
   int integer;
   cout << "Please enter an integer, then press enter:" << endl;
   cin >> integer;
-  cout << "It took " << hailstone(integer) << " steps for the hailstone (Collatz) sequence to reach 1." << endl;
+  cout << "It took " << hailstone(integer) << " steps for the Collatz hailstone sequence to reach 1." << endl;
   return 0;
 }
 
