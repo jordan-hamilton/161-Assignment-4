@@ -8,6 +8,20 @@
  ** This process is repeated until the integer is equal to 1.
  *********************************************************************/
 
+#include <iostream>
+
+using namespace std;
+
+int hailstone(int);
+
+int main() {
+  int integer;
+  cout << "Please enter an integer, then press enter:" << endl;
+  cin >> integer;
+  cout << "It took " << hailstone(integer) << " steps for the hailstone (Collatz) sequence to reach 1." << endl;
+  return 0;
+}
+
 int hailstone(int value) {
 
   // Define and initalize our accumulator

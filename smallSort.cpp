@@ -6,6 +6,22 @@
  ** from lowest to highest.
  *********************************************************************/
 
+#include <iostream>
+
+void smallSort(int&, int&, int&);
+
+using namespace std;
+
+int main() {
+  int low, middle, high;
+  cout << "Enter three integers:" << endl;
+  cin >> low;
+  cin >> middle;
+  cin >> high;
+  smallSort(low, middle, high);
+  cout << "Your integers in ascending order are: " << low << ", " << middle << ", " << high << "." << endl;
+}
+
 void smallSort(int &a, int &b, int &c) {
 
   // Define a variable that will temporarily store an integer.

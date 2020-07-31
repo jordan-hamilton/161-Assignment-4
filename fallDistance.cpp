@@ -7,6 +7,19 @@
  *********************************************************************/
 
 #include <cmath>
+#include <iostream>
+
+using namespace std;
+double fallDistance(double seconds);
+
+int main() {
+  double seconds;
+  cout << "Input a time in seconds an object has fallen: ";
+  cin >> seconds;
+  cout << "That object fell " << fallDistance(seconds) << "m in " << seconds << " seconds." << endl;
+
+  return 0;
+}
 
 double fallDistance(double seconds) {
 
