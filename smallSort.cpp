@@ -14,7 +14,7 @@ using namespace std;
 
 int main() {
   int low, middle, high;
-  cout << "Enter three integers:" << endl;
+  cout << "Enter three integers, pressing enter after entering each integer:" << endl;
   cin >> low;
   cin >> middle;
   cin >> high;
